@@ -3,7 +3,7 @@
 ## Download data
 In order to reproduce the results reported in 
 [End-To-End Learned Random Walker for Seeded Image Segmentation](https://openaccess.thecvf.com/content_CVPR_2019/papers/Cerrone_End-To-End_Learned_Random_Walker_for_Seeded_Image_Segmentation_CVPR_2019_paper.pdf)
-please download the `cvpr_2109_lrw.h5` `baseline_lrw.h5` from:
+please download `cvpr_2109_lrw.h5` and `baseline_lrw.h5` from:
 https://heibox.uni-heidelberg.de/published/cvpr2019_lrw/
 
 ## installation
