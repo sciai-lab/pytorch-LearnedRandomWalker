@@ -20,8 +20,11 @@ The following slices are removed from the test set: **Cremi B**: 44, 45, 15, 16,
 * The first 50 **valid** slices from each CREMI volume (A, B, C) are used for testing. The remaining **valid** slices 
 are used for training.
 
-The final 150 test set slices (with all above mentioned modifications) and the seeds used can be downloaded from:
+The final 150 test set slices (with all above mentioned modifications):
 https://heibox.uni-heidelberg.de/published/cvpr2019_lrw/
+
+Additionally the repository contains seeds, learned RW segmentation, standard WS segmentation, standard RW segmentation
+and the CNN predictions. 
 
 ## Evaluation:
 In the [evaluation](./evaluation) directory you can find all instruction to reproduce the results in the manuscript
