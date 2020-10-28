@@ -14,11 +14,11 @@ pip install git+https://github.com/lorenzocerrone/cremi_python.git
 python evaluation_test_cremi.py --gtpath ./cvpr_2109_lrw_final.h5 --segpath ./cvpr_2109_lrw_final.h5 
 ```
 ## Baseline evaluation
-run evaluation stRW
+standard RandomWalker algorithm
 ```
 python evaluation_test_cremi.py --gtpath ./cvpr_2109_lrw_final.h5 --segpath ./baseline_lrw.h5 --segdataset segmentation_stRW
 ```
-run evaluation stWs
+standard Watershed algorithm
 ```
 python evaluation_test_cremi.py --gtpath ./cvpr_2109_lrw_final.h5 --segpath ./baseline_lrw.h5 --segdataset segmentation_stWS
 ```
